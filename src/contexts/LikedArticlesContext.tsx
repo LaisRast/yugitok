@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
-import type { WikiArticle } from "../components/WikiCard";
+import type { WikiArticle } from "../components/WikiCard.tsx";
 
 interface LikedArticlesContextType {
     likedArticles: WikiArticle[];
