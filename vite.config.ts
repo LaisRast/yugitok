@@ -11,11 +11,11 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "WikiTok",
-        short_name: "WikiTok",
+        name: "YugiTok",
+        short_name: "YugiTok",
         icons: [
           {
-            src: "/wiki-logo.svg",
+            src: "/logo.svg",
             sizes: "any",
             type: "image/svg+xml",
           },

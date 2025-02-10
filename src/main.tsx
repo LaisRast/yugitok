@@ -1,13 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import {StrictMode} from 'react'
+import {createRoot} from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { LikedArticlesProvider } from './contexts/LikedArticlesContext.tsx'
+import {LikedCardsProvider} from "./contexts/LikedCardsContext.tsx";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <LikedArticlesProvider>
-      <App />
-    </LikedArticlesProvider>
+    <LikedCardsProvider>
+      <App/>
+    </LikedCardsProvider>
   </StrictMode>,
 )
